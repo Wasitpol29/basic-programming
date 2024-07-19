@@ -1,8 +1,7 @@
-const firstName:string = 'วสิษฐ์พล'
+const firstName:string = 'Wasitpol'
 let y:Number = 10
 y = 20
 let wantToGoHome:boolean = false
-
 
 console.log(firstName)
 console.log(y)
