@@ -10,6 +10,6 @@ console.log(wantToGoHome)
 let a :number = 29
 let b :number = 12
 
-console.log( a === b)
-console.log( a > b )
-console.log(a <= b )
+console.log(a === b)
+console.log(a > b)
+console.log(a <= b)
