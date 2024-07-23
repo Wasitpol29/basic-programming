@@ -46,4 +46,4 @@ function ohm(homework: number, midterm: number, final: number) {
     }
 }
     
-console.log(ohm(20, 30, 30))
+console.log(ohm(20, 30, 35))
