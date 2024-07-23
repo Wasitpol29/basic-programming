@@ -31,7 +31,7 @@ function grade(homework: number, midterm: number, final: number) {
 console.log(grade(8, 20, 30))
 
 
-function grade2(homework: number, midterm: number, final: number) {
+function ohm(homework: number, midterm: number, final: number) {
     let score: number = homework + midterm + final 
     if (score < 50) {
         return 'grade F'
@@ -46,4 +46,4 @@ function grade2(homework: number, midterm: number, final: number) {
     }
 }
     
-console.log(grade2(20, 25, 30))
+console.log(ohm(20, 30, 30))
