@@ -28,7 +28,7 @@ function st(fname: string, sname: string) {
 st('mix', 'zane')
 
 function sr(oname: string, hname: string, mname: string) {
-    if (oname === 'mix' && hname === 'zane' || mname === 'forth') {
+    if (oname === 'mix' || hname === 'zane' && mname === 'forth') {
         console.log('พร้อมเรียน') 
     }else {
         console.log('ยังไม่พร้อม')
