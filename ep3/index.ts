@@ -36,3 +36,23 @@ function sr(oname: string, hname: string, mname: string) {
 }
 
 sr('mix', 'zane', 'forth')
+
+function qr(g: string, h: number, w: number) {
+    if(g === 'เพศชาย' && h > 170 || (w > 50 && w <= 110)) {
+        console.log('จับใบดำใบแดง')
+    }else {
+        console.log('ไม่เข้าเกณฑ์')
+    }
+}
+
+qr('เพศชาย', 165, 45)
+
+function hk(age: number, pay: number, saving: number) {
+    if(age >= 16 && pay < 70000 && saving < 50000) {
+        console.log('รับ10000บาท')
+    }else {
+        console.log('อด.....')
+    }
+}
+
+hk(18, 18000, 56000)
