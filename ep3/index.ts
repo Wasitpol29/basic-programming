@@ -55,4 +55,4 @@ function hk(age: number, pay: number, saving: number) {
     }
 }
 
-hk(18, 18000, 56000)
+hk(18, 11000, 56000)
